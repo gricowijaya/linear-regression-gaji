@@ -1,6 +1,6 @@
 build:
-	docker build . -t gricowijaya/linear-regression-gaji:latest
+	docker build . -t ghcr.io/gricowijaya/linear-regression-gaji:latest
 
 run:
-	docker run -p 8888:8888 linear-regression-gaji-notebook
+	docker run -d -p 8888:8888 ghcr.io/gricowijaya/linear-regression-gaji:latest 
 
